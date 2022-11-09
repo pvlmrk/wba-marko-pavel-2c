@@ -27,6 +27,23 @@ header ul {
     padding: 0;
 }
 
+.logo-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.ul-wrapper {
+    flex: 2;
+}
+
+.search-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
 header a {
     text-decoration: none;
     color: #fff;
@@ -69,4 +86,3 @@ p {
     width: 250px;
     height: auto;
 }
-
