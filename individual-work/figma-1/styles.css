@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #C4C4C4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 130px;
+    height: 150px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+header li {
+    padding-left: 53px;
+    font-size: 18px;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.ig-link {
+    padding-left: 5px;
+}
+
+/* First Section */
+
+.first-section {
+    background-color: #9e9f9e;
+    width: 100%;
+    height: auto;
+}
+
+.section-1-container {
+    margin: 142px 1100px 0 132px;
+    text-align: left;
+}
+
+
+h1 {
+    color: #ffffff;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.first-section h2 {
+    color: #ffffff;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+}
+
+.cta {
+    margin: 39px auto 133px auto;
+    background-color: #C4C4C4;
+    width: 180px;
+    height: 48px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    border: none;
+}
+
+/* Second Section */
+
+.second-section {
+    color: #000000;
+    position: relative;
+    background-color: #fefefe;
+    width: 100%;
+    height: 984px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2-container {
+    width: 981px;
+    height: 779px;
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-2-heading-and-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.section-2-heading-and-description h2 {
+    margin-bottom: 0;
+}
+
+.section-2-description {
+    margin-top: 5px;
+    width: 780px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.section-2-container h2 {
+    margin-top: 0;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-wrap {
+    height: 458px;
+    width: 280px;
+    color: #000000;
+
+}
+
+.card {
+    background-color: #C4C4C4;
+    width: 280px;
+    height: 280px;
+}
+
+.second-section h3 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 42px;
+    margin-bottom: 0;
+}
+
+.card-wrap p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 106px;
+    margin-bottom: 105px;
+}
+
+.button button {
+    width: 180px;
+    height: 48px;
+    background-color: #C4C4C4;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 160px;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
