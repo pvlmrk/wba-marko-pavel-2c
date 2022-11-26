@@ -319,19 +319,107 @@ footer a {
 
 /* Contact Page */
 
-.contact-heading {
-    position: absolute;
-    top: 213px;
-    left: 50%;
+.contact-container {
+    width: 100%;
+    height: 724px;
+    background-color: #eeede9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-form {
+.contact-container h1 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.contact-grid-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    margin-top: -100px;
 }
 
-.contact-row {
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) 5.825fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+    
+.contact-background-1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.contact-background-2 { 
+    grid-area: 1 / 2 / 2 / 3;
+}
+.contact-background-3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.contact-background-4 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+.contact-background-5-lg {
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.contact-background-1,
+.contact-background-2,
+.contact-background-3,
+.contact-background-4 {
+    background-color: #ccc9c5;
+    width: 380px;
+    height: 40px;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    /* padding: 8px 20px;
+    margin: 0; */
+    
+}
+
+.contact-grid input {
+    background-color: transparent;
+    border: none;
+    margin: 8px 20px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    width: 100%;
+}
+
+.contact-background-5-lg {
+    background-color: #ccc9c5;
+    width: 780px;
+    height: 233px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-container button {
+    width: 180px;
+    height: 48px;
+    left: 630px;
+    top: 695px;
+    background-color: #7C7474;
+    border: none;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #F8F7EC;
+    margin-top: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
