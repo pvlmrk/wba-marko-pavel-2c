@@ -62,6 +62,10 @@ header a {
     height: 55px;
 }
 
+.hamburger {
+    display: none;
+}
+
 /* First Section  */
 
 .hero-image {
@@ -135,9 +139,9 @@ header a {
 .second {
     color: #000000;
     position: relative;
-    background-color: #fefefe;
+    background-color: #eeede8;
     width: 100%;
-    height: 925px;
+    height: 1031px;
     display: flex;
     justify-content: center;
 }
@@ -245,7 +249,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 106px;
 }
 
 footer ul {
@@ -422,4 +425,92 @@ footer a {
     margin-top: 20px;
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+::placeholder {
+    color: black;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Media */
+
+@media (max-width: 390px) {
+    .contact-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-background-1,
+    .contact-background-2,
+    .contact-background-3,
+    .contact-background-4 {
+        width: 310px;
+        height: 30px;
+    }
+
+
+    .contact-background-5-lg {
+        width: 310px;
+        height: 144px;
+    }
+
+    .contact-container h1 {
+        font-size: 20px;
+        margin-top: 75px;
+        margin-bottom: 38px;
+    }
+
+   .about-footer {
+    height: 104px;
+   }
+
+   .contact-grid-wrapper button {
+    margin-top: 38px;
+   }
+
+   .contact-container {
+    height: 650px;
+   }
+
+   .contact-container button {
+    width: 120px;
+    height: 25px;
+    font-size: 11px;
+    margin-top: 38px;
+   }
+
+   header ul {
+    display: none;
+   }
+
+   .index-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+   }
+
+   nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+
+   .hamburger {
+    display: block;
+   }
+
+   .logo {
+    width: 80px;
+    margin-right: 210px;
+   }
+
+   main {
+    display: flex;
+    flex-direction: column;
+   }
 }
