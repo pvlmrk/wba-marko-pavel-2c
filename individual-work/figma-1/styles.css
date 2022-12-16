@@ -64,6 +64,7 @@ header a {
 
 .hamburger {
     display: none;
+    margin-top: 10px;
 }
 
 /* First Section  */
@@ -505,5 +506,34 @@ input:focus {
    main {
     display: flex;
     flex-direction: column;
+   }
+
+   .wrap {
+    flex-direction: column;
+    gap: 35px;
+   }
+
+   .feature-col {
+    flex-direction: column;
+    gap: 35px;
+   }
+
+   .feature {
+    font-size: 12px;
+   }
+
+   .feature img {
+    width: 50px;
+   }
+
+   .about-first {
+    height: 650px;
+   }
+
+   .about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
    }
 }
